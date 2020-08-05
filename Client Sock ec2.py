@@ -1,4 +1,5 @@
 import socket,os,time
+import tkinter
 c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 c.connect(("3.93.151.85", 5057))
 print("Connected to server")
